@@ -4,6 +4,6 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <h1>这是又一次</h1>,
+  <h1>这是又一次,为甚，不行</h1>,
   document.getElementById('root')
 );
