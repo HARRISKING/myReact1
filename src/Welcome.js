@@ -1,0 +1,40 @@
+import React from 'react';
+//得到react框架的支持！
+
+// 方法一：
+class Welcome extends React.Component{
+  constructor(props){
+    super(props)
+    this.state = {
+      date: new Date()
+    }
+    setInterval(()=>{
+      this.setState({
+        date:new Date()
+      })
+    })
+  }
+
+
+
+  render(){
+    // return <h1>Hello,Component</h1>;
+    // return <h1>Hello,{this.props.name}</h1>;
+
+    return (
+      <div>
+        <h1>Hello,{this.props.name}</h1>
+        <h2>{this.state.date.toString()}</h2>
+      </div>
+    )
+
+  }
+}
+
+// // 方法二：
+// function Welcome(props){
+//   return <h1>Hello,{props.name}</h1>;
+// }
+
+export default Welcome
+// export default 用来导出一个值或者需要模型的一个返回值，这里导出Welcome的返回值；
