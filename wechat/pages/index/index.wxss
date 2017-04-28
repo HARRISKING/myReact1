@@ -1,0 +1,149 @@
+/* pages/index/index.wxss */
+page{
+  background-color: rgb(238, 238, 238);
+}
+.contain-all{
+  background-color: rgb(238, 238, 238);
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.slider{
+  height: 150px;
+}
+.slide-image {
+  width: 100%;
+}
+.main1{
+  width: 100%;
+  background-color: #fff;
+}
+#tabTest{
+  margin: 0 10px;
+}
+.box1{
+  width:24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+.s_icon {
+  width: 40px;
+  height: 40px;
+}
+
+#tabTest{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mark1{
+  width: 3px;
+  height: 15px;
+  display: inline-block;
+  background-color: rgb(49, 100, 209);
+}
+.main2{
+  width: 100%;
+  background-color: #fff;
+}
+.goods-title{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0px 10px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+.goods-list{
+  margin: 0 10px;
+  display: flex;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+.goods-list:last-child{
+  margin-bottom: 10px;
+}
+.goods-info{
+  display: flex;
+  flex-direction: row;
+}
+.goods-name{
+  margin: 5px 0;
+}
+.goods-more{
+  display: flex;
+  margin: 6px 0;
+  font-size: 18px;
+  color: #999;
+}
+
+.good-price1{
+  color: rgb(254, 138, 1);
+}
+.good-price2{
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 5px;
+}
+.good-price3{
+  font-size: 18px;
+  margin: auto 0;
+    color: #999;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: space-around;
+}
+.inner-word{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+.goods-img{
+  height: 100px;
+  width: 100%;
+  margin: 10px;
+}
+.prices{
+  display: flex;
+  flex-direction: row;
+    align-content: center;
+  justify-content: space-between;
+}
+.price1{
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width:320px){
+  .good-price1,.good-price2{
+    font-size: 15px;
+  }
+  .good-price3{
+    font-size: 13px;
+  }
+  .goods-more{
+  font-size: 15px;
+}
+}

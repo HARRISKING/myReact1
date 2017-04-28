@@ -1,0 +1,284 @@
+
+    <view class="slider">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150"/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    
+     <view class="main1">
+
+      <view id="tabTest" data-hi="WeChat" bindtap="tapName">
+        <view class="box1">
+          <image class="s_icon" src="{{src[0]}}"></image>
+            {{itemName[0]}}
+        </view>
+        <navigator url="./items/item1/item1.wxml" class="box1">
+          <image class="s_icon" src="{{src[1]}}"></image>
+            {{itemName[1]}}
+        </navigator>
+            <view class="box1">
+          <image class="s_icon" src="{{src[2]}}"></image>
+            {{itemName[2]}}
+        </view>
+            <view class="box1">
+          <image class="s_icon" src="{{src[3]}}"></image>
+            {{itemName[3]}}
+        </view>
+        <view class="box1">
+          <image class="s_icon" src="{{src[0]}}"></image>
+            {{itemName[0]}}
+        </view>
+            <view class="box1">
+          <image class="s_icon" src="{{src[1]}}"></image>
+            {{itemName[1]}}
+        </view>
+            <view class="box1">
+          <image class="s_icon" src="{{src[2]}}"></image>
+            {{itemName[2]}}
+        </view>
+            <view class="box1">
+          <image class="s_icon" src="{{src[3]}}"></image>
+            {{itemName[3]}}
+        </view>      
+      </view>
+    </view>
+    <view class="main2">
+      <view class="goods-title">
+        <view class="goods-name">
+          <view class="mark1"></view>
+          热销商品
+        </view>
+        <view class="goods-more">更多</view>
+      </view>
+      <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+ <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+       <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+       <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+       <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+       <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+       <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+       <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+       <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+       <view class="goods-list">
+        <view class="goods-info">
+          <image class="goods-img" src="{{src[4]}}"></image>
+          <view class="info">
+            <view class="inner-word">发生看风景拉开圣诞节疯狂拉升等级分开啦束带结发圣诞快乐费劲啊圣诞快乐放假快乐的身份卡萨来得及方式打开房间阿喀琉斯</view>
+            <view class="prices">
+              <view class="price1">
+                <view class="good-price1">
+                    2222元
+                </view>
+                <view class="good-price2">
+                   3000元
+                </view>
+              </view>
+              <view class="good-price3">
+                10000人已购买
+              </view>
+            </view>
+
+          </view>
+        </view>
+      </view>
+    </view>
+    
+   
+
+
+
+

@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "迪迦护车",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor":"#fff",
+    "backgroundColor": "#333"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"pages/pic/firPage.png",
+      "selectedIconPath":"pages/pic/firPage1.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/logs/logs",
+       "iconPath":"pages/pic/me.png",
+       "selectedIconPath":"pages/pic/me1.png",
+       "text": "我的"
+    }],
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "selectedColor": "#1296db",
+    "color":"#333"
+
+  },
+  "networkTimeout": {
+    "request": 5000,
+    "downloadFile": 5000
+  },
+  "debug": false
+}
