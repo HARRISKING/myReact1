@@ -1,5 +1,5 @@
 .App{
-  color: #333;
+  color: #fff;
   border: 1px solid #aaa;
   border-radius: 4px;
   background: white;
@@ -9,3 +9,21 @@
   min-width: 32em;
   box-shadow: 0 0 1em hsla(0, 0%, 0%, 0.15)
 }
+.App > .todoList > li:nth-child(odd){
+  background: blue;
+}
+.App > .todoList > li:nth-child(even){
+  background: green;
+}
+.deleted{
+  width: 20%;
+  background: yellow;
+  float: right;
+  line-height: 30px;
+}
+.todoList > li{
+  margin-top: 10px;
+  height: 30px;
+}
+
+
