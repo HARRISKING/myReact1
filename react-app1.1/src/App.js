@@ -4,16 +4,14 @@ import TodoInput from './TodoInput';
 import TodoItem from './TodoItem';
 import 'normalize.css';
 import './reset.css';
+import * as localStore from './localStore';
 
 class App extends Component {
   constructor(props){
     super(props);
     this.state = {
       newTodo: "",
-      todoList: [
-        {id:1,title:'第一个代办'},
-        {id:2,title:'第二个代办'}
-      ]
+      todoList: localStore.load('todoList') || []
     }
   }
 
@@ -30,7 +28,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>事项清单</h1>
+        <h1 className='title'>事项清单</h1>
         <div className='inputWrapper'>
           <TodoInput content={this.state.newTodo} 
           onSubmit={this.addTodo.bind(this)}
@@ -42,13 +40,16 @@ class App extends Component {
       </div>
     );
   }
+  componentDidUpdate(){
+    localStore.save('todoList',this.state.todoList)
+  }
   delete(event,todo){
     todo.deleted = true;
-    this.setState(this.state)
+    this.setState(this.state);
   }
   toggle(e,todo){
-    todo.status = todo.status === 'completed' ? '' : 'completed'
-    this.setState(this.state)
+    todo.status = todo.status === 'completed' ? '' : 'completed';
+    this.setState(this.state);
   }
   changeTitle(event){
     this.setState({
