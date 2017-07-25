@@ -6,6 +6,9 @@ import 'normalize.css';
 import './reset.css';
 import * as localStore from './localStore';
 
+
+
+
 class App extends Component {
   constructor(props){
     super(props);
